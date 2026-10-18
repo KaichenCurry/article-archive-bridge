@@ -1,0 +1,169 @@
+{
+  "scope": "Local loopback fixtures only. Online WeChat success rate unverified.",
+  "total_runs": 108,
+  "repeats": 3,
+  "methods": {
+    "reader": {
+      "core_runs": 27,
+      "core_complete": 24,
+      "text_recall": 1.0,
+      "text_precision": 0.989517819706499,
+      "images_retained": 6,
+      "images_expected": 6,
+      "median_seconds": 8.832413374999305,
+      "min_seconds": 3.5912791670125443,
+      "max_seconds": 10.055274167010793,
+      "negative_reported_success": 0,
+      "negative_runs": 6,
+      "generic_complete": 0,
+      "pdf_text_complete": 6,
+      "bridge_median_seconds": 0,
+      "case_results": {
+        "code": {
+          "complete": 3,
+          "median_seconds": 8.855815333023202
+        },
+        "delayed": {
+          "complete": 3,
+          "median_seconds": 9.506339250016026
+        },
+        "formatting": {
+          "complete": 3,
+          "median_seconds": 8.962850875017466
+        },
+        "hidden": {
+          "complete": 0,
+          "median_seconds": 8.803202667011647
+        },
+        "images": {
+          "complete": 3,
+          "median_seconds": 3.607950833014911
+        },
+        "plain": {
+          "complete": 3,
+          "median_seconds": 8.781269375002012
+        },
+        "provided_pdf_text_01": {
+          "complete": 3,
+          "median_seconds": 8.836279624985764
+        },
+        "provided_pdf_text_02": {
+          "complete": 3,
+          "median_seconds": 8.816647375002503
+        },
+        "table": {
+          "complete": 3,
+          "median_seconds": 8.914504874992417
+        }
+      }
+    },
+    "singlefile": {
+      "core_runs": 27,
+      "core_complete": 27,
+      "text_recall": 1.0,
+      "text_precision": 1.0,
+      "images_retained": 6,
+      "images_expected": 6,
+      "median_seconds": 4.791512625000905,
+      "min_seconds": 4.061417749995599,
+      "max_seconds": 6.738504917011596,
+      "negative_reported_success": 6,
+      "negative_runs": 6,
+      "generic_complete": 3,
+      "pdf_text_complete": 6,
+      "bridge_median_seconds": 0,
+      "case_results": {
+        "code": {
+          "complete": 3,
+          "median_seconds": 4.847303249989636
+        },
+        "delayed": {
+          "complete": 3,
+          "median_seconds": 4.083502875000704
+        },
+        "formatting": {
+          "complete": 3,
+          "median_seconds": 4.683039417024702
+        },
+        "hidden": {
+          "complete": 3,
+          "median_seconds": 4.589157875016099
+        },
+        "images": {
+          "complete": 3,
+          "median_seconds": 4.599126041983254
+        },
+        "plain": {
+          "complete": 3,
+          "median_seconds": 4.3107448749942705
+        },
+        "provided_pdf_text_01": {
+          "complete": 3,
+          "median_seconds": 6.650360165978782
+        },
+        "provided_pdf_text_02": {
+          "complete": 3,
+          "median_seconds": 6.687285249994602
+        },
+        "table": {
+          "complete": 3,
+          "median_seconds": 4.548427500005346
+        }
+      }
+    },
+    "combined": {
+      "core_runs": 27,
+      "core_complete": 27,
+      "text_recall": 1.0,
+      "text_precision": 1.0,
+      "images_retained": 6,
+      "images_expected": 6,
+      "median_seconds": 4.856725751014892,
+      "min_seconds": 4.329350291984156,
+      "max_seconds": 7.242252624972025,
+      "negative_reported_success": 0,
+      "negative_runs": 6,
+      "generic_complete": 3,
+      "pdf_text_complete": 6,
+      "bridge_median_seconds": 0.2585433339991141,
+      "case_results": {
+        "code": {
+          "complete": 3,
+          "median_seconds": 4.88528079201933
+        },
+        "delayed": {
+          "complete": 3,
+          "median_seconds": 4.603354791994207
+        },
+        "formatting": {
+          "complete": 3,
+          "median_seconds": 5.105093499994837
+        },
+        "hidden": {
+          "complete": 3,
+          "median_seconds": 4.7798263340082485
+        },
+        "images": {
+          "complete": 3,
+          "median_seconds": 4.6071833340101875
+        },
+        "plain": {
+          "complete": 3,
+          "median_seconds": 4.845290208002552
+        },
+        "provided_pdf_text_01": {
+          "complete": 3,
+          "median_seconds": 7.209943249967182
+        },
+        "provided_pdf_text_02": {
+          "complete": 3,
+          "median_seconds": 6.9252819159883074
+        },
+        "table": {
+          "complete": 3,
+          "median_seconds": 4.842645042022923
+        }
+      }
+    }
+  }
+}
